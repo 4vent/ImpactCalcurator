@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="script/calcurator.js" type="module"></script>
+    <title>Impact Calculator</title>
+</head>
+<body style="background-color: gray;">
+    <div id="controller-view">
+        <div class="genshin-font">キャラ：<select class="form-select" name="chara_selector" id="chara_selector"><option disabled selected>-</option></select></div>
+        <div class="genshin-font">レベル：<select class="form-select" name="from_level" id="from_level"></select>～<select class="form-select" name="to_level" id="to_level"></select></div>
+        <div class="genshin-font">天賦1：<select class="form-select" name="talant1_from" id="talant1_from"></select>～<select class="form-select" name="talant1_to" id="talant1_to"></select></div>
+        <div class="genshin-font">天賦2：<select class="form-select" name="talant2_from" id="talant2_from"></select>～<select class="form-select" name="talant2_to" id="talant2_to"></select></div>
+        <div class="genshin-font">天賦3：<select class="form-select" name="talant3_from" id="talant3_from"></select>～<select class="form-select" name="talant3_to" id="talant3_to"></select></div>
+    </div>
+    <div id="main-panel">
+        <div id="splash" class="genshin-font">キャラクターを選択してください。</div>
+        <div id="resource-view"></div>
+    </div>
+    <img src="" alt="" id="charactor-bg">
+</body>
+</html>
