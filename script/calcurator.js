@@ -228,28 +228,28 @@ const get_item_info = async () => {
     const body = document.body;
     switch (d["元素"]) {
         case "炎":
-            body.style.backgroundColor = '#d70035';
+            body.style.backgroundColor = '#bc4c4c';
             break
         case "草":
-            body.style.backgroundColor = '#387d39';
+            body.style.backgroundColor = '#507c2b';
             break
         case "水":
-            body.style.backgroundColor = '#003f8e';
+            body.style.backgroundColor = '#6166c6';
             break
         case "雷":
-            body.style.backgroundColor = '#47266e';
+            body.style.backgroundColor = '#8f52c0';
             break
         case "風":
-            body.style.backgroundColor = '#006a6c';
+            body.style.backgroundColor = '#2b7c6d';
             break
         case "岩":
-            body.style.backgroundColor = '#866629';
+            body.style.backgroundColor = '#8b6b31';
             break
         case "氷":
-            body.style.backgroundColor = '#006888';
+            body.style.backgroundColor = '#367795';
             break
         case "なし":
-            body.style.backgroundColor = '#626063';
+            body.style.backgroundColor = '#707070';
             break
     }
 
